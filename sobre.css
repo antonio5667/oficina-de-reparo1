@@ -1,0 +1,72 @@
+/* sobre.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #4e4376;
+    color: white;
+}
+
+header {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+#sobre {
+    padding: 50px;
+    text-align: center;
+}
+
+#sobre h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+#sobre .container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#sobre .container .item {
+    background-color: #222;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+#sobre .container .item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

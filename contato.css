@@ -1,0 +1,62 @@
+/* contato.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #1f1f1f;
+    color: white;
+}
+
+header {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+#contato {
+    padding: 50px;
+    text-align: center;
+}
+
+#contato h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+#contato .informacoes {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+#contato .mapa {
+    margin: 20px 0;
+    height: 300px;
+    background-color: #444;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

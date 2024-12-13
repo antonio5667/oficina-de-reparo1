@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento - Oficina Mecânica</title>
+    <link rel="stylesheet" href="agendamento.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="agendamento.html">Agendamento</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="agendamento">
+        <h1>Agende seu Horário</h1>
+        <form action="#">
+            <label for="nome">Seu Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="telefone">Telefone:</label>
+            <input type="text" id="telefone" name="telefone" required>
+
+            <label for="servico">Serviço Desejado:</label>
+            <select id="servico" name="servico" required>
+                <option value="troca-oleo">Troca de Óleo</option>
+                <option value="alinhamento">Alinhamento</option>
+                <option value="revisao">Revisão Completa</option>
+            </select>
+
+            <label for="data">Data e Hora Preferida:</label>
+            <input type="datetime-local" id="data" name="data" required>
+
+            <button type="submit">Confirmar Agendamento</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Oficina Mecânica. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
